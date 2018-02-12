@@ -1,0 +1,118 @@
+body {
+    width: 100%;
+    background-color: rgb(59, 124, 223);
+}
+
+#headerImage {
+    background-color: #25065e;
+    align-content: center;
+    text-align: center;
+    border-bottom: 5px solid #25065e;
+}
+
+#mainGame {
+    margin-left: 10%;
+    width: 80%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+}
+
+#hangmanBox {
+    position: relative;
+    width: 40%;
+    border: 5px solid #25065e;
+    float: left;
+
+}
+
+#hangmanBox li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+#hangmanBox li, #navlist a {
+    height: 151px;
+    display: block;
+}
+
+#hangmanImage {
+    width: 163px;
+    height: 151px;
+    background: url("Assets/images/hangmanSprite.jpg") 0 0;
+}
+
+#hangmanImage0 {
+    left: 0px;
+    width: 163px;
+    background: url("Assets/images/hangmanSprite.jpg") 0 0;
+}
+
+#hangmanImage1 {
+    left: 0px;
+    width: 163px;
+    background: url("Assets/images/hangmanSprite.jpg") -164 0;
+}
+
+#hangmanImage2 {
+    left: 0px;
+    width: 163px;
+    background: url("Assets/images/hangmanSprite.jpg") -328 0;
+}
+
+#hangmanImage3 {
+    left: 0px;
+    width: 163px;
+    background: url("Assets/images/hangmanSprite.jpg") -492 0;
+}
+
+#hangmanImage4 {
+    left: 0px;
+    width: 163px;
+    background: url("Assets/images/hangmanSprite.jpg") -656 0;
+}
+
+#hangmanImage5 {
+    left: 0px;
+    width: 163px;
+    background: url("Assets/images/hangmanSprite.jpg") 0 -152;
+}
+
+#hangmanImage6 {
+    left: 0px;
+    width: 163px;
+    background: url("Assets/images/hangmanSprite.jpg") -164 -152;
+}
+
+#hangmanImage7 {
+    left: 0px;
+    width: 163px;
+    background: url("Assets/images/hangmanSprite.jpg") -328 -152;
+}
+
+#hangmanImage8 {
+    left: 0px;
+    width: 163px;
+    background: url("Assets/images/hangmanSprite.jpg") -492 -152;
+}
+
+#playPanel {
+    width: 40%;
+    border: 5px solid #25065e;
+}
+
+#rstBtn {
+    margin: 20px;
+}
+
+.footer1 {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    align-content: center;
+    background-color: #25065e;
+    color: rgb(59, 124, 223);
+    text-align: center;
+}
