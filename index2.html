@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hangman-Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="Assets/css/reset.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="Assets/css/style.css" />
+    <script src="Assets/javascript/game.js"></script>
+</head>
+<body>
+    <!-- header image here -->
+    <div class="row">
+        <div class="col sm-12">
+            <div class="jumbotron" id="header">
+                <img src="Assets/images/header-fish1_edit1.jpg" width=100%>
+            </div>
+        </div>
+    </div>
+    <!-- begin main content -->
+    <div class="row">
+        <div class="col sm-12">
+    <!-- animation display here -->
+            <section id="animation1">
+                <img src="Assets/images/hangmanSprite.jpg">
+            </section>
+        </div>
+
+    <!-- begin play area -->
+        <div class="col sm-12">
+            <section id="playArea">
+        <!-- activate game -->
+                <h1>PRESS ANY KEY TO BEGIN!</h1><br>
+        <!-- win counter -->
+                <h2 id="winCount"></h2><br>
+                <h2>Your Word:</h2><br>
+        <!-- Insert word blanks here -->
+                <h2 id="wordInPlay"></h2><br>
+                <h2>Number of mistakes until you're dead:</h2><br>
+        <!-- count down to lose here -->
+                <h2 id="guessesLeft"></h2><br>
+        <!-- used letters (mistakes) here -->
+                <h2 id="wrongLetters"></h2><br>
+            </section>
+        </div>
+    </div>
+        <!-- footer here -->
+    <div>
+        <footer id="footer1">
+            <p>&copy; Copyright 2018 Mike Smith</p>
+        </footer>
+    </div>
+</body>
+</html>

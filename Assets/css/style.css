@@ -25,7 +25,7 @@ body {
 
 }
 
-#hangmanBox li {
+/* #hangmanBox li {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -42,7 +42,18 @@ body {
     width: 163px;
     height: 151px;
     background: url("Assets/images/hangmanSprite.jpg") 0 0;
+} */
+
+#playArea {
+    margin: 10px;
+    padding: 10px;
 }
+#hangmanImage {
+    background: url("Assets/images/hangmanSprite.jpg");
+    display: inline-block;
+    height: 151px;
+    width: 163px;
+  }
 
 #hangmanImage0 {
     left: 0px;
